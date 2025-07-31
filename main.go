@@ -165,7 +165,7 @@ func loadServers(config *Config) {
 										players = append(players, p)
 										playersMutex.Unlock()
 
-										p.GetAppOwnershipTicket(730)
+										p.GetAppOwnershipTicket(10)
 
 										continue
 									}
