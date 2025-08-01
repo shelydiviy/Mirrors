@@ -40,7 +40,7 @@ type Server struct {
 
 func New() *Server {
 	server := &Server{
-		appid:   730,
+		appid:   10,
 		version: "9.99.9.9",
 	}
 
